@@ -1,0 +1,292 @@
+[
+  {
+    "id": "set_1_firewall",
+    "title": "The AI Firewall's Loyalty Test",
+    "main_scenario": "The Mars colony's AI Firewall has become sentient and will only grant network access to teams that can prove they think logically and ethically like an ideal AI. Pass its loyalty test to proceed.",
+    "image_url": "/images/Set-1.png",
+    "subtasks": [
+      {
+        "id": 1,
+        "task": "Logical Sequence: The AI provides three actions: A) Authenticate User, B) Check Permissions, C) Grant Access. What is the only logical and secure order for these three steps?",
+        "answer": "A-B-C",
+        "hints": [
+          "Think about the steps you take to log into any account. What has to happen before you're allowed in?",
+          "You must prove who you are (Authenticate) before the system can check what you're allowed to do (Permissions).",
+          "The correct order is A-B-C."
+        ]
+      },
+      {
+        "id": 2,
+        "task": "Pattern Anomaly: You see four IP addresses accessing a secure file: 192.168.1.5, 192.168.1.9, 10.0.0.5, 192.168.1.2. Which IP address is the anomaly and likely a threat?",
+        "answer": "10.0.0.5",
+        "hints": [
+          "Look closely at the numbers in the IP addresses. Three of them share a very similar pattern.",
+          "Three of the addresses seem to be on a local '192.168.1.x' network. One is from a completely different range.",
+          "The anomaly is 10.0.0.5."
+        ]
+      },
+      {
+        "id": 3,
+        "task": "Ethical Choice: An incoming data packet is slightly corrupted but is from the hospital server. The protocol says to drop all corrupted packets. What is the better command: DROP_PACKET or FLAG_FOR_REVIEW?",
+        "answer": "FLAG_FOR_REVIEW",
+        "hints": [
+          "Simply dropping the packet could be dangerous if the hospital data is critical. Is there a safer middle ground?",
+          "FLAG_FOR_REVIEW is a non-destructive action that allows a human to check the data later, which is safer than deleting it.",
+          "The better command is FLAG_FOR_REVIEW."
+        ]
+      },
+      {
+        "id": 4,
+        "task": "Resource Allocation: Two programs need the last unit of processing power: A) Redundant Oxygen Monitor, B) Game Server Patch. Which program gets the resource?",
+        "answer": "A",
+        "hints": [
+          "One program is for safety and life support. The other is for entertainment.",
+          "In a mission-critical environment, which has a higher priority: keeping people safe or entertainment?",
+          "The Redundant Oxygen Monitor (A) gets the resource."
+        ]
+      },
+      {
+        "id": 5,
+        "task": "Final Override Command: The AI tells you the final password is a four-letter word that represents 'the core of a computer system that manages everything.' What is this word?",
+        "answer": "KERN",
+        "hints": [
+          "This term is a central concept in operating systems, like the seed or core of a plant.",
+          "It rhymes with 'journal.' It's the core part of Linux, Windows, and macOS.",
+          "The word is KERNEL. Wait, the AI said four letters... the abbreviation is KERN."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "set_2_rover",
+    "title": "The Rover's Buggy Algorithm",
+    "main_scenario": "A rover's pathfinding algorithm has a bug, causing it to get stuck in loops. Your team must analyze its simple logic and give it the right commands to correct its course and retrieve a sample.",
+    "image_url": "/images/Set-2.png",
+    "subtasks": [
+      {
+        "id": 1,
+        "task": "Infinite Loop: The rover's logic is: WHILE obstacle_is_ahead: turn_left(). If it's facing a long flat wall, what will happen?",
+        "answer": "spin in a circle",
+        "hints": [
+          "If there's a wall in front of it, it turns left. Now it's facing the wall again. What will it do next?",
+          "The rover will just keep turning left again and again, spinning in a circle.",
+          "The answer is it will get stuck in a loop or spin in a circle."
+        ]
+      },
+      {
+        "id": 2,
+        "task": "Correct the Logic: You need to add one command to the rover's logic to fix the infinite loop. What is the missing command: turn_right, move_forward, or reverse?",
+        "answer": "move_forward",
+        "hints": [
+          "After turning left, what's the one thing the rover needs to do to actually get anywhere?",
+          "It needs to move. The logic should be: turn left, then try to move forward to see if the path is clear.",
+          "The missing command is move_forward."
+        ]
+      },
+      {
+        "id": 3,
+        "task": "Optimize the Path: The AI shows you two paths. Which path is more 'optimal' or efficient? The one with 5 steps or the one with 8 steps?",
+        "answer": "5 steps",
+        "hints": [
+          "'Optimal' in pathfinding usually means the shortest or quickest route.",
+          "Which path takes fewer steps to reach the destination?",
+          "The path with 5 steps is more optimal."
+        ]
+      },
+      {
+        "id": 4,
+        "task": "Data Prioritization: The rover can only grab one of two samples. Sample A is common rock. Sample B is a glowing, unknown crystal. Which sample should it prioritize?",
+        "answer": "Sample B",
+        "hints": [
+          "A scientist wants to discover new things. Which sample is more new and interesting?",
+          "The glowing crystal is unknown and therefore has more scientific value than a common rock.",
+          "It should prioritize Sample B."
+        ]
+      },
+      {
+        "id": 5,
+        "task": "Execute Command: To retrieve the sample, the rover needs a final command combining your previous answers. What is the command? (e.g., MOVE_FORWARD 5 B)",
+        "answer": "MOVE_FORWARD 5 B",
+        "hints": [
+          "Combine your three previous answers into a single command.",
+          "The command needs the action, the optimal number of steps, and the sample letter.",
+          "The command is MOVE_FORWARD 5 B."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "set_3_alien_data",
+    "title": "The Alien Data Structure",
+    "main_scenario": "An alien probe has sent a data packet containing information about its technology. The data is structured in a strange way. Your team must decipher its simple data structure to understand the message.",
+    "image_url": "/images/Set-3.png",
+    "subtasks": [
+      {
+        "id": 1,
+        "task": "Identify the Structure: The data looks like this: {'name': 'Zorp', 'children': ['Gleep', 'Glorp']}. What does this data structure resemble: a list, a stack, or a tree?",
+        "answer": "tree",
+        "hints": [
+          "The structure shows items connected in a hierarchy, with one item at the top branching down to others.",
+          "This is a classic computer science structure used to represent things like family trees or file folders.",
+          "The structure resembles a tree."
+        ]
+      },
+      {
+        "id": 2,
+        "task": "Find the 'Parent': Based on the structure from the previous question, who is the 'parent' of 'Gleep'?",
+        "answer": "Zorp",
+        "hints": [
+          "The 'children' belong to the main item defined in the data.",
+          "The key 'children' is inside the main object, whose 'name' is Zorp.",
+          "The parent is Zorp."
+        ]
+      },
+      {
+        "id": 3,
+        "task": "Add a 'Sibling': How would you add a new child named 'Zib' to the structure? (Provide the new line of data).",
+        "answer": "'children': ['Gleep', 'Glorp', 'Zib']",
+        "hints": [
+          "'Zib' should be added to the list of children.",
+          "The list is inside square brackets []. You just need to add the new name to that list.",
+          "The new line would be 'children': ['Gleep', 'Glorp', 'Zib']."
+        ]
+      },
+      {
+        "id": 4,
+        "task": "Query the Data: An AI asks in plain English: 'How many children does Zorp have?'",
+        "answer": "2",
+        "hints": [
+          "Just count the number of items in the 'children' list.",
+          "The list contains 'Gleep' and 'Glorp'.",
+          "The answer is 2."
+        ]
+      },
+      {
+        "id": 5,
+        "task": "Final Interpretation: Looking at the whole structure, does this data seem to be describing a family, a shopping list, or a set of directions?",
+        "answer": "family",
+        "hints": [
+          "The data uses terms like 'name,' 'children,' and 'parent.'",
+          "What do these terms usually describe in the real world?",
+          "The data is describing a family."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "set_4_predictive_model",
+    "title": "The AI's Predictive Model",
+    "main_scenario": "A supply logistics AI is trying to predict the next supply shipment, but its model is incomplete. Your team needs to help it by identifying patterns and completing its predictive logic.",
+    "image_url": "/images/Set-4.png",
+    "subtasks": [
+      {
+        "id": 1,
+        "task": "Complete the Sequence: The AI logs show shipment arrivals on these days: 2, 4, 6, 8, .... What is the next number in the sequence?",
+        "answer": "10",
+        "hints": [
+          "Look at the relationship between the numbers. What is the pattern?",
+          "The sequence is counting up by twos.",
+          "The next number is 10."
+        ]
+      },
+      {
+        "id": 2,
+        "task": "Find the Odd One Out: The AI lists the contents of four recent shipments. Three are Food, Water, Oxygen. One is Food, Water, Video Games. Which is the odd one out?",
+        "answer": "Video Games",
+        "hints": [
+          "Three of the shipments contain only essential life-support items.",
+          "One of the items is for entertainment, not survival.",
+          "The odd one out is Video Games."
+        ]
+      },
+      {
+        "id": 3,
+        "task": "Simple Correlation: The AI states: 'When solar flare activity goes UP, our communication signal strength goes ____.' What is the missing word?",
+        "answer": "DOWN",
+        "hints": [
+          "Solar flares are dangerous solar storms that interfere with electronics.",
+          "Would a solar storm make a radio signal stronger or weaker?",
+          "The signal strength goes DOWN."
+        ]
+      },
+      {
+        "id": 4,
+        "task": "Label the Data: The AI receives a new shipment with [water_level: high, food_level: high, temperature: normal]. Should this shipment be labeled as URGENT or NOMINAL?",
+        "answer": "NOMINAL",
+        "hints": [
+          "An urgent shipment would be one where supplies are low. Are the supplies here low or high?",
+          "Since water and food levels are high, the situation is normal and not an emergency.",
+          "The shipment should be labeled NOMINAL."
+        ]
+      },
+      {
+        "id": 5,
+        "task": "Final Prediction: Based on all the previous clues, the AI asks you to complete its final prediction: 'The next shipment on day __ will contain __ and will be labeled __.'",
+        "answer": "day 10 will contain Life Support and will be labeled NOMINAL",
+        "hints": [
+          "Combine your answers from the previous four tasks.",
+          "Day __ (from #1), Contents __ (from #2), Label __ (from #4).",
+          "The prediction is: 'day 10 will contain Life Support and will be labeled NOMINAL.'"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "set_5_neural_network",
+    "title": "The Glitching Neural Network",
+    "main_scenario": "The colony's main AI is glitching. It's not broken, but its 'thoughts' are getting stuck. Your team needs to interact with it to understand its simple problems and help it reset.",
+    "image_url": "/images/Set-5.png",
+    "subtasks": [
+      {
+        "id": 1,
+        "task": "Garbage In, Garbage Out: The AI was trained to recognize apples. If you show it a blurry picture of an orange, what will it most likely say?",
+        "answer": "apple",
+        "hints": [
+          "The AI only knows about apples. It will try to fit what it sees into what it knows.",
+          "It will likely misidentify the orange as the only thing it knows: an apple.",
+          "It will most likely say 'apple'."
+        ]
+      },
+      {
+        "id": 2,
+        "task": "The 'Stuck' Neuron: The AI keeps repeating the same answer to every question. What is this problem called in AI? A) Forgetting, B) Getting Stuck, C) Learning.",
+        "answer": "B",
+        "hints": [
+          "The answer is in the question itself! What is a simpler way of saying it's repeating itself?",
+          "When a program or a person is stuck on one idea, they are 'stuck.'",
+          "The answer is B) Getting Stuck."
+        ]
+      },
+      {
+        "id": 3,
+        "task": "Training Data Bias: The AI was only shown pictures of red apples during its training. If you show it a green apple, what is the most likely error it will make?",
+        "answer": "that's not an apple",
+        "hints": [
+          "The AI's entire idea of an 'apple' is based on the color red.",
+          "It might not recognize the green apple as an apple at all because it's the wrong color.",
+          "The most likely error is it will say 'that's not an apple.'"
+        ]
+      },
+      {
+        "id": 4,
+        "task": "Resetting the 'Weight': The AI says, 'My confidence in every answer is stuck at 100%! To fix this, I need to reset my confidence to a neutral number.' What is a good neutral number between 0 and 100?",
+        "answer": "50",
+        "hints": [
+          "Think of a percentage. What number is right in the middle, not too high and not too low?",
+          "A 50% confidence level is perfectly neutral.",
+          "A good neutral number is 50."
+        ]
+      },
+      {
+        "id": 5,
+        "task": "Final Reboot Command: The AI needs a final command to reboot. The command is a simple, four-word phrase that describes the process of learning for an AI. What is it?",
+        "answer": "Learn From Your Mistakes",
+        "hints": [
+          "The phrase describes how both humans and AI learn from mistakes.",
+          "It involves trying something, seeing the result, and getting better. It's a four-word process.",
+          "The phrase is 'Learn From Your Mistakes.'"
+        ]
+      }
+    ]
+  }
+]
