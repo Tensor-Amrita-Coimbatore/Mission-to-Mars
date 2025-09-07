@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic>=2.9.0
+python-dotenv
+pymongo
+groq
+cryptography --only-binary cryptography
+orjson --only-binary orjson
+pymongo[srv]>=4.8.0
+dnspython>=2.6.1
