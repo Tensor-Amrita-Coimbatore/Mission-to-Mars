@@ -1,0 +1,7 @@
+# See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+#
+# A robot should read this file to determine if it should crawl
+# this site. We are disallowing all robots to crawl this site.
+
+User-agent: *
+Disallow: /

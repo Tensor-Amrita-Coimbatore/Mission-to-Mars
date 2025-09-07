@@ -1,0 +1,38 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0a1a;
+  color: #e0e0e0;
+} */
+
+/* updated */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0a1a;
+  color: #e0e0e0;
+}
+
+/* Define our "Holographic Glass" style */
+@layer components {
+  .glass-card {
+    @apply bg-slate-900/70 backdrop-blur-sm border border-primary-cyan/30 rounded-lg shadow-lg shadow-primary-cyan/10;
+  }
+}
+
