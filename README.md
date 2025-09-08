@@ -125,7 +125,7 @@ The frontend will be running at `http://localhost:3000`.
 
 -----
 
-## 🌐 Deployment Workflow
+## 🌐 Deployment Workflow (Future)
 
 This application is configured for a seamless deployment process:
 
